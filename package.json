@@ -1,0 +1,26 @@
+{
+  "name": "homey-mock",
+  "version": "0.0.1",
+  "description": "Mock Homey for unit-testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milanzor/homey-mock.git"
+  },
+  "keywords": [
+    "mock",
+    "homey",
+    "athom",
+    "unit",
+    "test"
+  ],
+  "author": "Milan van As <milanvanas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Milanzor/homey-mock/issues"
+  },
+  "homepage": "https://github.com/Milanzor/homey-mock#readme"
+}
