@@ -20,3 +20,8 @@ My preferred (the only one I have used actually...) JS unit testing utilities ar
 ## Working example
 For a working example, have a look at our Countdown app: https://github.com/NotQuiteZen/homey.countdown
 and it's travis integration for automated Unit Tests: https://travis-ci.com/NotQuiteZen/homey.countdown
+
+
+## IMPORTANT NOTE
+- This currently only mocks a few functions that Homey supports, if you are missing anything, stuff will be added as I need them, but feel free te leave an issue or even a pull request.
+- Hit me up on Athom's Slack community on `@milanzor`
