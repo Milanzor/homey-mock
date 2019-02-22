@@ -1,6 +1,6 @@
 {
   "name": "@milanzor/homey-mock",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "private": false,
   "description": "Mock Homey for unit-testing purposes",
   "main": "index.js",
