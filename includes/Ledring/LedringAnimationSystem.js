@@ -1,11 +1,11 @@
 /**
  *
  */
-class LedringAnimation {
+class LedringAnimationSystem {
 
     /**
      *
-     * @returns {LedringAnimation}
+     * @returns {LedringAnimationSystem}
      */
     register() {
         return this;
@@ -13,7 +13,7 @@ class LedringAnimation {
 
     /**
      *
-     * @returns {LedringAnimation}
+     * @returns {LedringAnimationSystem}
      */
     registerScreensaver() {
         return this;
@@ -21,7 +21,7 @@ class LedringAnimation {
 
     /**
      *
-     * @returns {LedringAnimation}
+     * @returns {LedringAnimationSystem}
      */
     start() {
         return this;
@@ -29,7 +29,7 @@ class LedringAnimation {
 
     /**
      *
-     * @returns {LedringAnimation}
+     * @returns {LedringAnimationSystem}
      */
     stop() {
         return this;
@@ -37,7 +37,7 @@ class LedringAnimation {
 
     /**
      *
-     * @returns {LedringAnimation}
+     * @returns {LedringAnimationSystem}
      */
     unregister() {
         return this;
@@ -45,7 +45,7 @@ class LedringAnimation {
 
     /**
      *
-     * @returns {LedringAnimation}
+     * @returns {LedringAnimationSystem}
      */
     unregisterScreensaver() {
         return this;
@@ -53,11 +53,11 @@ class LedringAnimation {
 
     /**
      *
-     * @returns {LedringAnimation}
+     * @returns {LedringAnimationSystem}
      */
     updateFrames() {
         return this;
     }
 }
 
-module.exports = LedringAnimation;
+module.exports = LedringAnimationSystem;

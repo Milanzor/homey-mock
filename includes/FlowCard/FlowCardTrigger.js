@@ -1,10 +1,45 @@
-class FlowCardTrigger{
+/**
+ *
+ */
+class FlowCardTrigger {
 
-    register(){
+    /**
+     *
+     * @returns {FlowCardTrigger}
+     */
+    getArgument() {
         return this;
     }
 
-    registerRunListener(){
+    /**
+     *
+     * @returns {FlowCardTrigger}
+     */
+    getArgumentValues() {
+        return this;
+    }
+
+    /**
+     *
+     * @returns {FlowCardTrigger}
+     */
+    register() {
+        return this;
+    }
+
+    /**
+     *
+     * @returns {FlowCardTrigger}
+     */
+    registerRunListener() {
+        return this;
+    }
+
+    /**
+     *
+     * @returns {FlowCardTrigger}
+     */
+    unregister() {
         return this;
     }
 }

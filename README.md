@@ -14,7 +14,7 @@ My preferred (the only one I have used actually...) JS unit testing utilities ar
 2. Edit your package.json's `scripts => test` entry to `mocha ./test/**/*.test.js`, this will allow you to run `npm test` _later_ and all your test files will be executed.
 3. Create a `test` directory in the root of your project
 4. Create a file in the `test` directory called, say, `myapp.test.js` 
-5. Have a look at the `./examples/base.test.js` and `./examples/homeyapp.test.js` for some example code to put in your .test.js file.
+5. Have a look at the `./examples/basic.test.js` and `./examples/homeyapp.test.js` for some example code to put in your .test.js file.
 6. Run `npm test` and see the result of your unit tests!
 
 ## Working example

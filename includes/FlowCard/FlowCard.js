@@ -1,8 +1,11 @@
-class FlowCardAction {
+/**
+ *
+ */
+class FlowCard {
 
     /**
      *
-     * @returns {FlowCardAction}
+     * @returns {FlowCard}
      */
     getArgument() {
         return this;
@@ -10,7 +13,7 @@ class FlowCardAction {
 
     /**
      *
-     * @returns {FlowCardAction}
+     * @returns {FlowCard}
      */
     getArgumentValues() {
         return this;
@@ -18,7 +21,7 @@ class FlowCardAction {
 
     /**
      *
-     * @returns {FlowCardAction}
+     * @returns {FlowCard}
      */
     register() {
         return this;
@@ -26,7 +29,7 @@ class FlowCardAction {
 
     /**
      *
-     * @returns {FlowCardAction}
+     * @returns {FlowCard}
      */
     registerRunListener() {
         return this;
@@ -34,11 +37,11 @@ class FlowCardAction {
 
     /**
      *
-     * @returns {FlowCardAction}
+     * @returns {FlowCard}
      */
     unregister() {
         return this;
     }
 }
 
-module.exports = FlowCardAction;
+module.exports = FlowCard;

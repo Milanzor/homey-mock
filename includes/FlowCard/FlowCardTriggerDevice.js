@@ -1,11 +1,11 @@
 /**
  *
  */
-class FlowCardCondition {
+class FlowCardTriggerDevice {
 
     /**
      *
-     * @returns {FlowCardCondition}
+     * @returns {FlowCardTriggerDevice}
      */
     getArgument() {
         return this;
@@ -13,7 +13,7 @@ class FlowCardCondition {
 
     /**
      *
-     * @returns {FlowCardCondition}
+     * @returns {FlowCardTriggerDevice}
      */
     getArgumentValues() {
         return this;
@@ -21,7 +21,7 @@ class FlowCardCondition {
 
     /**
      *
-     * @returns {FlowCardCondition}
+     * @returns {FlowCardTriggerDevice}
      */
     register() {
         return this;
@@ -29,7 +29,7 @@ class FlowCardCondition {
 
     /**
      *
-     * @returns {FlowCardCondition}
+     * @returns {FlowCardTriggerDevice}
      */
     registerRunListener() {
         return this;
@@ -37,11 +37,20 @@ class FlowCardCondition {
 
     /**
      *
-     * @returns {FlowCardCondition}
+     * @returns {FlowCardTriggerDevice}
+     */
+    trigger() {
+        return this;
+    }
+
+    /**
+     *
+     * @returns {FlowCardTriggerDevice}
      */
     unregister() {
         return this;
     }
+
 }
 
-module.exports = FlowCardCondition;
+module.exports = FlowCardTriggerDevice;
