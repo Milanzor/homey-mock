@@ -1,10 +1,12 @@
-module.exports = function () {
-    return {
-        register: function () {
-            return this;
-        },
-        registerRunListener: function () {
-            return this;
-        }
+class FlowCardAction{
+
+    register(){
+        return this;
     }
-};
+
+    registerRunListener(){
+        return this;
+    }
+}
+
+module.exports = FlowCardAction;

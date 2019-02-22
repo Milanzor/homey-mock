@@ -1,7 +1,7 @@
-module.exports = function () {
-    return {
-        register: function () {
-            return this;
-        },
+class LedringAnimation{
+    register(){
+        return this;
     }
-};
+}
+
+module.exports = LedringAnimation;
